@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Migration\\Examples.Charge.Infra.Data.Configuration.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj",
+        "projectName": "Examples.Charge.Domain",
+        "projectPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj",
+        "packagesPath": "C:\\Users\\rdornelas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rdornelas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Infra.Data\\Examples.Charge.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Infra.Data\\Examples.Charge.Infra.Data.csproj",
+        "projectName": "Examples.Charge.Infra.Data",
+        "projectPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Infra.Data\\Examples.Charge.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\rdornelas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rdornelas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj": {
+                "projectPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Migration\\Examples.Charge.Infra.Data.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Migration\\Examples.Charge.Infra.Data.Configuration.csproj",
+        "projectName": "Examples.Charge.Infra.Data.Configuration",
+        "projectPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Migration\\Examples.Charge.Infra.Data.Configuration.csproj",
+        "packagesPath": "C:\\Users\\rdornelas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Migration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rdornelas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj": {
+                "projectPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Domain\\Examples.Charge.Domain.csproj"
+              },
+              "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Infra.Data\\Examples.Charge.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\rdornelas\\Desktop\\Agora_vai_2\\Web Charge\\Examples.Charge.Infra.Data\\Examples.Charge.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
