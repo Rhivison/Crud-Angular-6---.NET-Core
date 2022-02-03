@@ -1,0 +1,19 @@
+<div class="col-md-4">
+  <h2 class="text-center">Include Person Phone</h2>
+
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" formControlName="phoneNumber" placeholder="(31)00000-0000" name="phoneNumber" class="form-control" id="phoneNumber">
+    </div>
+
+    <div class="form-group">
+      <label for="phoneNumberTypeID">Phone Number Type:</label>
+      <input formControlName="phoneNumberTypeID" placeholder="Phone Number Type (1 or 2)" name="phoneNumberTypeID" class="form-control" id="phoneNumberTypeID">
+    </div>
+    <button class="btn btn-success">Inclde</button>
+  </form>
+    
+  
+</div>

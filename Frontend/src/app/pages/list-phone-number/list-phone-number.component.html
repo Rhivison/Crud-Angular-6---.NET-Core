@@ -1,0 +1,25 @@
+<div class="col-md-6">
+  <h2> Person Phone Details</h2>
+  <button class="btn btn-danger" (click)="addPersonPhone()"> Add Person Phone</button>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Person</th>
+        <th>Phone Number</th>
+        <th>Phone Number Type</th>
+        <th>Number Type ID</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let phoneNumber of viewPhoneNumbers">
+        <td>{{phoneNumber.Person.name}}</td>
+        <td>{{phoneNumber.phoneNumber}}</td>
+        <td>{{phoneNumber.PhoneNumberType.name}}</td>
+        <td>{{phoneNumber.phoneNumberTypeID}}</td>
+        <td><button class="btn btn-danger" (click)="deletePersonPhone(phoneNumber)"> Delete</button>
+          <button class="btn btn-danger" (click)="editPersonPhone(phoneNumber)"> Edit</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
